@@ -75,6 +75,18 @@ export default function Alt4() {
         </div>
       </section>
 
+      {/* Quote */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <blockquote className="text-3xl md:text-5xl font-black leading-tight text-[#0A2E36]">
+            &ldquo;TRUE HEALING STARTS WITH HOW THE BODY <span className="text-[#FF6B35]">MOVES,</span> AND HOW IT <span className="text-[#FF6B35]">REPAIRS ITSELF.</span>&rdquo;
+          </blockquote>
+          <p className="text-[#FF6B35] font-bold text-sm uppercase tracking-wider mt-6">
+            &mdash; Dr. J****** M*****, D.C.
+          </p>
+        </div>
+      </section>
+
       {/* Services — Split Blocks */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

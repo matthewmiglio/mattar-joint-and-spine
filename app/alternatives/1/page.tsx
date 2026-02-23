@@ -57,8 +57,8 @@ export default function Alt1() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-8">Our Philosophy</p>
           <blockquote className="font-serif text-2xl md:text-4xl lg:text-5xl italic leading-snug text-gray-200 mb-8">
-            &ldquo;The goal of chiropractic care is to optimize the function of the
-            nervous system by detecting spinal misalignments.&rdquo;
+            &ldquo;True Healing Starts With How The Body Moves,
+            And How It Repairs Itself.&rdquo;
           </blockquote>
           <p className="text-gray-500 text-sm uppercase tracking-widest">Dr. J****** M*****, D.C.</p>
         </div>

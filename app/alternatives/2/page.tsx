@@ -78,6 +78,19 @@ export default function Alt2() {
         </div>
       </section>
 
+      {/* Quote */}
+      <section className="py-16 lg:py-20 bg-[#F7FAFC]">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <blockquote className="text-2xl md:text-3xl font-bold italic leading-relaxed text-[#1B3A4B]">
+            &ldquo;True Healing Starts With How The Body Moves,
+            And How It Repairs Itself.&rdquo;
+          </blockquote>
+          <p className="text-[#1B4965] text-sm font-medium uppercase tracking-wider mt-6">
+            &mdash; Dr. J****** M*****, D.C.
+          </p>
+        </div>
+      </section>
+
       {/* Services Cards */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
