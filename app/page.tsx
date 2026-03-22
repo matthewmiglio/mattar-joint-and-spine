@@ -1,90 +1,119 @@
+{/* Classic Elegance — Dark/Gold cinematic luxury */}
+
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      {/* Hero with Video */}
-      <section className="relative min-h-[85vh] flex items-center overflow-hidden">
+    <div className="bg-[#0a0a0a] text-white">
+      {/* Cinematic Hero */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <video
             autoPlay
             muted
             loop
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-40"
             poster="/images/SoundWaves_Header_1920x1080_prog01 (1).webp"
           >
             <source src="/videos/StemWave_Website_NonInvasivePainTreatment_prog01.mp4" type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0c1220]/90 via-[#0c1220]/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/60 via-transparent to-[#0a0a0a]" />
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-2xl">
-            <p className="text-[#C8A96E] uppercase tracking-[0.2em] text-sm mb-4 font-medium">
-              ******* *********, Michigan
-            </p>
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-[1.1]">
-              True Healing
-              <br />
-              Starts Here
-            </h1>
-            <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
-              Advanced chiropractic care and StemWave regenerative therapy
-              &mdash; non-invasive solutions for lasting pain relief.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="tel:5864773284"
-                className="inline-flex items-center justify-center px-8 py-4 bg-[#C8A96E] text-[#0c1220] font-semibold text-sm uppercase tracking-wider rounded hover:bg-[#d4b87e] transition-all duration-300"
-              >
-                Book Consultation
-              </a>
-              <Link
-                href="/services/stemwave"
-                className="inline-flex items-center justify-center px-8 py-4 border border-white/30 text-white text-sm uppercase tracking-wider rounded hover:bg-white/10 transition-all duration-300"
-              >
-                Explore StemWave
-              </Link>
-            </div>
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
+          <div className="w-16 h-px bg-[#C8A96E] mx-auto mb-8" />
+
+          {/* Prominent Logo & Name */}
+          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-4 leading-[1.05] tracking-tight">
+            Mattar
+            <br />
+            <span className="text-[#C8A96E]">Joint &amp; Spine</span>
+          </h1>
+          <div className="w-24 h-px bg-[#C8A96E] mx-auto my-8" />
+
+          {/* Content below the name */}
+          <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-6">
+            ******* *********, Michigan
+          </p>
+          <p className="font-serif text-2xl md:text-3xl lg:text-4xl italic mb-6 text-gray-200">
+            True Healing Starts
+            <br />
+            <span className="text-[#C8A96E]">With Your Body</span>
+          </p>
+          <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            Regenerative acoustic wave therapy and chiropractic excellence.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:5864773284"
+              className="px-10 py-4 bg-[#C8A96E] text-black font-semibold text-sm uppercase tracking-[0.15em] hover:bg-[#d4b87e] transition-all duration-500"
+            >
+              Schedule Consultation
+            </a>
+            <Link
+              href="/services/stemwave"
+              className="px-10 py-4 border border-[#C8A96E]/40 text-[#C8A96E] text-sm uppercase tracking-[0.15em] hover:bg-[#C8A96E]/10 transition-all duration-500"
+            >
+              Discover StemWave
+            </Link>
           </div>
+          <div className="w-16 h-px bg-[#C8A96E] mx-auto mt-12" />
         </div>
       </section>
 
-      {/* Services */}
-      <section className="py-20 lg:py-28 bg-white">
+      {/* Philosophy */}
+      <section className="py-24 lg:py-32 bg-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-8">Our Philosophy</p>
+          <blockquote className="font-serif text-2xl md:text-4xl lg:text-5xl italic leading-snug text-gray-200 mb-8">
+            &ldquo;True Healing Starts With How The Body Moves,
+            And How It Repairs Itself.&rdquo;
+          </blockquote>
+          <p className="text-gray-500 text-sm uppercase tracking-widest">Dr. J****** M*****, D.C.</p>
+        </div>
+      </section>
+
+      {/* Services — Two Pillars */}
+      <section className="py-24 lg:py-32 bg-[#111111]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <p className="text-[#C8A96E] uppercase tracking-[0.2em] text-sm mb-3">Our Services</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#1a1a2e]">
-              Comprehensive Care
-            </h2>
+          <div className="text-center mb-20">
+            <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-4">Our Services</p>
+            <h2 className="font-serif text-3xl md:text-5xl">Two Pillars of Healing</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            <div className="group relative overflow-hidden rounded-lg">
+          <div className="grid md:grid-cols-2 gap-1">
+            {/* Chiropractic */}
+            <div className="relative group overflow-hidden aspect-[3/4] md:aspect-auto md:min-h-[600px]">
               <img
-                src="/images/AdobeStock_72148101 (1).webp"
+                src="/images/AdobeStock_114404159 (1).webp"
                 alt="Chiropractic Care"
-                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0c1220]/80 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h3 className="font-serif text-2xl text-white mb-2">Chiropractic Care</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Restoring proper alignment to optimize nervous system function and relieve pain.
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-10">
+                <div className="w-10 h-px bg-[#C8A96E] mb-6" />
+                <h3 className="font-serif text-3xl mb-3">Chiropractic Care</h3>
+                <p className="text-gray-400 leading-relaxed max-w-sm">
+                  Manual adjustments and techniques to relieve pain, improve mobility,
+                  and restore proper joint motion. Gentle, painless procedures customized
+                  to your needs.
                 </p>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-lg">
+            {/* StemWave */}
+            <div className="relative group overflow-hidden aspect-[3/4] md:aspect-auto md:min-h-[600px]">
               <img
                 src="/images/stemwave.webp"
                 alt="StemWave Therapy"
-                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0c1220]/80 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h3 className="font-serif text-2xl text-white mb-2">StemWave Therapy</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  FDA-listed regenerative acoustic wave therapy for natural healing and tissue repair.
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-10">
+                <div className="w-10 h-px bg-[#C8A96E] mb-6" />
+                <h3 className="font-serif text-3xl mb-3">StemWave Therapy</h3>
+                <p className="text-gray-400 leading-relaxed max-w-sm">
+                  FDA-listed regenerative acoustic wave therapy. Activate your body&apos;s
+                  natural healing with increased blood flow and stem cell activation for
+                  tissue repair.
                 </p>
               </div>
             </div>
@@ -92,138 +121,143 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About */}
-      <section className="py-20 lg:py-28 bg-[#f8f6f3]">
+      {/* StemWave Details */}
+      <section className="py-24 lg:py-32 bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-[#C8A96E] uppercase tracking-[0.2em] text-sm mb-3">About Us</p>
-              <h2 className="font-serif text-3xl md:text-4xl text-[#1a1a2e] mb-6">
-                Over 40 Years of Dedicated Care
+              <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-4">
+                The Technology
+              </p>
+              <h2 className="font-serif text-3xl md:text-5xl mb-8">
+                What to Expect
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Dr. J****** M***** has been providing chiropractic care to Macomb County since 1982.
-                A graduate of Palmer College of Chiropractic, he has helped improve the lives of
-                thousands of patients with his gentle, painless procedures customized to personal needs.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Under the name of M***** Joint and Spine, Dr. M***** now includes the latest
-                technology of regenerative acoustic wave therapy &mdash; StemWave &mdash; providing
-                improved blood flow and stem cell activation for tissue repair.
-              </p>
-              <Link
-                href="/about"
-                className="inline-flex items-center text-[#C8A96E] hover:text-[#b8944f] font-medium text-sm uppercase tracking-wider transition-colors"
-              >
-                Learn More
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
-            <div className="relative">
-              <img
-                src="/images/staff_photo.webp"
-                alt="P** M*****, StemWave Technician"
-                className="w-full rounded-lg shadow-xl"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-[#C8A96E] text-[#0c1220] p-6 rounded-lg shadow-lg hidden md:block">
-                <p className="font-serif text-3xl font-bold">40+</p>
-                <p className="text-sm uppercase tracking-wider">Years Experience</p>
+              <div className="space-y-6 text-gray-400 leading-relaxed">
+                <p>
+                  Each visit averages around 10-15 minutes. A gel is applied to the treatment
+                  area, and the StemWave applicator delivers focused acoustic waves. The treatment
+                  is non-invasive and requires no anesthesia.
+                </p>
+                <p>
+                  Care plans commonly range between 8-12 sessions. Patients typically experience
+                  significant improvement after 3-4 treatments, with many noticing results after
+                  the very first session.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 gap-8 mt-10 pt-10 border-t border-white/10">
+                <div>
+                  <p className="font-serif text-4xl text-[#C8A96E]">10-15</p>
+                  <p className="text-gray-500 text-sm mt-1">Minutes per session</p>
+                </div>
+                <div>
+                  <p className="font-serif text-4xl text-[#C8A96E]">8-12</p>
+                  <p className="text-gray-500 text-sm mt-1">Sessions typical</p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* StemWave Feature */}
-      <section className="py-20 lg:py-28 bg-[#0c1220] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div className="order-2 lg:order-1">
+            <div>
               <img
                 src="/images/Stemwave SM051.webp"
                 alt="StemWave Device"
-                className="w-full rounded-lg"
+                className="w-full"
               />
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-[#C8A96E] uppercase tracking-[0.2em] text-sm mb-3">
-                Regenerative Technology
-              </p>
-              <h2 className="font-serif text-3xl md:text-4xl mb-6">
-                What Is StemWave?
-              </h2>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                StemWave utilizes harmless, yet powerful acoustic waves to activate your
-                body&apos;s natural healing mechanisms. This FDA-listed technology increases
-                blood flow and reduces inflammation &mdash; without surgery, injections, or medications.
-              </p>
-              <ul className="space-y-3 mb-8">
-                {['FDA listed & safe', 'Non-invasive — no downtime', '10-15 minute sessions', 'Results in 3-4 treatments'].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-gray-300">
-                    <span className="w-1.5 h-1.5 bg-[#C8A96E] rounded-full flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href="tel:5864773284"
-                className="inline-flex items-center justify-center px-8 py-4 bg-[#C8A96E] text-[#0c1220] font-semibold text-sm uppercase tracking-wider rounded hover:bg-[#d4b87e] transition-all duration-300"
-              >
-                Schedule Today
-              </a>
             </div>
           </div>
         </div>
       </section>
 
       {/* Treatment Areas */}
-      <section className="py-20 lg:py-28 bg-white">
+      <section className="py-24 lg:py-32 bg-[#111111]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <p className="text-[#C8A96E] uppercase tracking-[0.2em] text-sm mb-3">Treatment Areas</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#1a1a2e]">
-              Conditions We Treat
-            </h2>
+            <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-4">Conditions</p>
+            <h2 className="font-serif text-3xl md:text-5xl">Treatment Areas</h2>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10">
             {[
-              { title: 'Neck & Back', desc: 'Spinal conditions, disc issues, and chronic back pain' },
-              { title: 'Shoulder & Elbow', desc: 'Rotator cuff, tennis elbow, and joint injuries' },
-              { title: 'Knee & Hip', desc: 'Arthritis, meniscus tears, and degenerative changes' },
-              { title: 'Wrist & Hand', desc: 'Carpal tunnel, tendonitis, and repetitive strain' },
-              { title: 'Ankle & Foot', desc: 'Plantar fasciitis, sprains, and Achilles tendon' },
-              { title: 'Post-Surgical', desc: 'Accelerated recovery and rehabilitation support' },
+              'Neck & Back Conditions',
+              'Shoulder & Elbow',
+              'Knee & Hip',
+              'Wrist & Ankle',
+              'Soft Tissue Injuries',
+              'Post-Surgical Recovery',
             ].map((area) => (
               <div
-                key={area.title}
-                className="p-8 border border-gray-200 rounded-lg hover:border-[#C8A96E]/50 hover:shadow-lg transition-all duration-300"
+                key={area}
+                className="bg-[#111111] p-10 hover:bg-[#1a1a1a] transition-colors duration-500 group"
               >
-                <h3 className="font-serif text-xl text-[#1a1a2e] mb-2">{area.title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{area.desc}</p>
+                <div className="w-8 h-px bg-[#C8A96E] mb-6 group-hover:w-16 transition-all duration-500" />
+                <h3 className="font-serif text-xl">{area}</h3>
               </div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* Team */}
+      <section className="py-24 lg:py-32 bg-[#0a0a0a]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-4">Our Team</p>
+            <h2 className="font-serif text-3xl md:text-5xl">Dedicated Professionals</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div>
+              <div className="mb-8">
+                <img
+                  src="/images/AdobeStock_492255186 (1).webp"
+                  alt="Dr. J****** M*****"
+                  className="w-full aspect-[4/3] object-cover"
+                />
+              </div>
+              <h3 className="font-serif text-2xl mb-2">Dr. J****** M*****, D.C.</h3>
+              <p className="text-[#C8A96E] text-sm uppercase tracking-wider mb-4">
+                Doctor of Chiropractic
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Originally from Flint, MI, Dr. M***** has been providing chiropractic care
+                to Macomb County since 1982. He received his degree from Palmer College of
+                Chiropractic in Davenport, Iowa.
+              </p>
+            </div>
+            <div>
+              <div className="mb-8">
+                <img
+                  src="/images/staff_photo.webp"
+                  alt="P** M*****"
+                  className="w-full aspect-[4/3] object-cover"
+                />
+              </div>
+              <h3 className="font-serif text-2xl mb-2">P** M*****</h3>
+              <p className="text-[#C8A96E] text-sm uppercase tracking-wider mb-4">
+                Certified StemWave Technician
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Pam served as office manager from 2001 to 2025 and is now certified in the
+                application of StemWave Regenerative Therapy. Contact Pam directly at ***-***-****.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
-      <section className="py-20 lg:py-28 bg-[#C8A96E]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#0c1220] mb-6">
-            Begin Your Healing Journey
+      <section className="py-24 lg:py-32 bg-[#111111] border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="w-16 h-px bg-[#C8A96E] mx-auto mb-10" />
+          <h2 className="font-serif text-3xl md:text-5xl mb-6">
+            Begin Your Journey
           </h2>
-          <p className="text-[#0c1220]/80 text-lg mb-8 max-w-2xl mx-auto">
-            Contact Pam directly to answer questions or make an appointment.
-            Experience the difference of personalized, non-invasive care.
+          <p className="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
+            Contact Pam directly to answer questions or schedule your appointment.
           </p>
           <a
             href="tel:5864773284"
-            className="inline-flex items-center justify-center px-10 py-4 bg-[#0c1220] text-white font-semibold text-sm uppercase tracking-wider rounded hover:bg-[#1a2234] transition-all duration-300"
+            className="inline-block px-12 py-5 bg-[#C8A96E] text-black font-semibold text-sm uppercase tracking-[0.15em] hover:bg-[#d4b87e] transition-all duration-500"
           >
             Call ***-***-****
           </a>
+          <div className="w-16 h-px bg-[#C8A96E] mx-auto mt-10" />
         </div>
       </section>
     </div>

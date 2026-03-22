@@ -9,14 +9,6 @@ const serviceLinks = [
   { name: 'Treatment Areas', href: '/services/treatment-areas' },
 ];
 
-const alternativeLinks = [
-  { name: 'Alt 1 — Classic Elegance', href: '/alternatives/1' },
-  { name: 'Alt 2 — Clean Professional', href: '/alternatives/2' },
-  { name: 'Alt 3 — Editorial Narrative', href: '/alternatives/3' },
-  { name: 'Alt 4 — Bold Contemporary', href: '/alternatives/4' },
-  { name: 'Alt 5 — Warm Wellness', href: '/alternatives/5' },
-];
-
 function ChevronIcon({ open }: { open: boolean }) {
   return (
     <svg
@@ -45,25 +37,18 @@ function MobileLink({ href, onClick, children }: { href: string; onClick: () => 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  const [altsOpen, setAltsOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
-  const [mobileAltsOpen, setMobileAltsOpen] = useState(false);
   const servicesRef = useRef<HTMLDivElement>(null);
-  const altsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
         setServicesOpen(false);
       }
-      if (altsRef.current && !altsRef.current.contains(e.target as Node)) {
-        setAltsOpen(false);
-      }
     }
     function handleEscape(e: KeyboardEvent) {
       if (e.key === 'Escape') {
         setServicesOpen(false);
-        setAltsOpen(false);
         setMobileOpen(false);
       }
     }
@@ -103,7 +88,7 @@ export default function Header() {
             {/* Services Dropdown */}
             <div ref={servicesRef} className="relative">
               <button
-                onClick={() => { setServicesOpen(!servicesOpen); setAltsOpen(false); }}
+                onClick={() => setServicesOpen(!servicesOpen)}
                 className={dropdownBtn}
                 aria-expanded={servicesOpen}
                 aria-haspopup="true"
@@ -133,32 +118,6 @@ export default function Header() {
             <Link href="/areas-we-serve" className={navLink}>Areas We Serve</Link>
             <Link href="/contact" className={navLink}>Contact</Link>
 
-            {/* Home Page Alternatives Dropdown */}
-            <div ref={altsRef} className="relative">
-              <button
-                onClick={() => { setAltsOpen(!altsOpen); setServicesOpen(false); }}
-                className={dropdownBtn}
-                aria-expanded={altsOpen}
-                aria-haspopup="true"
-              >
-                Home Page Alternatives
-                <ChevronIcon open={altsOpen} />
-              </button>
-              {altsOpen && (
-                <div className="absolute top-full right-0 mt-2 w-64 bg-[#1a2234] rounded-lg shadow-xl shadow-black/30 border border-white/10 py-1">
-                  {alternativeLinks.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className={dropdownItem}
-                      onClick={() => setAltsOpen(false)}
-                    >
-                      {item.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
           </nav>
 
           {/* Mobile Hamburger */}
@@ -212,26 +171,6 @@ export default function Header() {
             <MobileLink href="/faq" onClick={() => setMobileOpen(false)}>FAQ</MobileLink>
             <MobileLink href="/areas-we-serve" onClick={() => setMobileOpen(false)}>Areas We Serve</MobileLink>
             <MobileLink href="/contact" onClick={() => setMobileOpen(false)}>Contact</MobileLink>
-
-            {/* Mobile Alternatives */}
-            <div>
-              <button
-                onClick={() => setMobileAltsOpen(!mobileAltsOpen)}
-                className="w-full flex items-center justify-between px-3 py-2.5 text-gray-300 hover:text-[#C8A96E] text-sm uppercase tracking-wide transition-colors"
-              >
-                Home Page Alternatives
-                <ChevronIcon open={mobileAltsOpen} />
-              </button>
-              {mobileAltsOpen && (
-                <div className="pl-6 space-y-1">
-                  {alternativeLinks.map((item) => (
-                    <MobileLink key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
-                      {item.name}
-                    </MobileLink>
-                  ))}
-                </div>
-              )}
-            </div>
 
             {/* Phone CTA */}
             <div className="pt-4 border-t border-white/10 mt-4">
