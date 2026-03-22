@@ -28,6 +28,12 @@ The goal of chiropractic care is to optimize the function of the nervous system 
 
 This alignment allows for uninterrupted nerve communication throughout the body, facilitating the restoration of well-being. By restoring proper joint motion, we also reduce the friction and wear and tear between joints, which cause joint arthritis, inflammation, and disc thinning.
 
+### The Impact of Forward Head Posture
+
+In a neutral position, the human head places about 5 kilograms of force on the cervical spine. But when the head tilts forward to look at a phone, that load increases dramatically, reaching the equivalent of 27 kilograms at a 60-degree angle.
+
+This excess pressure strains muscles, ligaments, and spinal discs, contributing to neck pain, stiffness, headaches, and long-term postural problems. Over time, repeated stress can accelerate disc degeneration.
+
 ---
 
 ## StemWave Therapy
@@ -56,6 +62,30 @@ StemWave's versatility makes it a great option for a wide variety of patients an
 - **Lower Extremities** — Knee, Ankle, Foot
 - **Soft Tissue Injuries** — Muscles, Tendons, Ligaments
 - **Post-Surgical Recovery**
+
+---
+
+## Services
+
+### Chiropractic Care
+
+Specific Chiropractic Care to the neck and back, including gentle manual adjustments, table assisted adjustments (Drop, low force) and instrument adjustments (very low force). We also provide spinal decompression (Flexion/Traction) and trigger point therapy as needed.
+
+### StemWave Therapy
+
+StemWave therapy is a non-invasive cutting edge treatment that uses focused acoustic waves to stimulate tissue repair, reduce pain, decrease inflammation and improve mobility by delivering precise low intensity sound waves to targeted areas. It encourages natural healing, boosts blood circulation by creating new blood vessels and helps address issues like chronic pain, joint dysfunction and nerve damage. It's often part of personalized rehab plans for a drug free recovery.
+
+### Rehabilitative Exercises
+
+Easy to do rehab exercises to improve flexibility and muscle tone.
+
+### Nutritional Supplements
+
+We have access to the finest and purest nutritional supplements.
+
+### Massage
+
+Amy Payton has been our massage therapist for over 15 years. Massage offers a surprisingly wide range of benefits, both physical and mental. It helps loosen tight muscles, improves circulation, and supports better posture which could make everyday movement feel easier. Many people also find that massage reduces stress by calming the nervous system and encouraging deeper relaxation. Over time, it can even improve sleep quality and boost overall well-being, making it a simple but powerful way to take care of your body and mind.
 
 ---
 
