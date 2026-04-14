@@ -2,33 +2,29 @@
 
 ## Homepage
 
-- [ ] Finalize homepage design (pick from current home or alternatives 1-5, then remove the others)
+- [x] Finalize homepage design — using Alternative 1 "Classic Elegance"
 
 ## Pages Needing Content
 
-These pages exist but are empty placeholders ("content goes here"):
-
-- [ ] `/about` — About page (Dr. Mattar bio, Pam bio, clinic history)
-- [ ] `/services` — Services overview page
-- [ ] `/gallery` — Photo gallery (StemWave device, clinic, treatments)
-- [ ] `/testimonials` — Patient testimonials
-- [ ] `/faq` — Frequently asked questions
-- [ ] `/areas-we-serve` — Service area / locations
-- [ ] `/contact` — Contact page with form, phone, address, map
+- [x] `/about` — About page (Dr. Mattar bio, Pam bio, clinic history)
+- [x] `/services` — Services overview page
+- [x] `/gallery` — Photo gallery with lightbox
+- [x] `/testimonials` — Patient testimonials
+- [x] `/faq` — Frequently asked questions (accordion)
+- [x] `/areas-we-serve` — Service area / locations with map
+- [x] `/contact` — Contact page with form, phone, address, map
 
 ## Pages That Don't Exist Yet
 
-These are linked in the nav but have no file at all:
-
-- [ ] `/services/chiropractic` — Dedicated chiropractic care page
-- [ ] `/services/stemwave` — Dedicated StemWave therapy page
-- [ ] `/services/treatment-areas` — Treatment areas detail page
+- [x] `/services/chiropractic` — Dedicated chiropractic care page
+- [x] `/services/stemwave` — Dedicated StemWave therapy page
+- [x] `/services/treatment-areas` — Treatment areas detail page
 
 ## Functionality
 
-- [ ] Make functional contact form (currently no form exists)
+- [x] Make functional contact form (POSTs to /api/contact — TODO: add email service integration)
 
 ## Cleanup
 
-- [ ] Remove `/portfolio` page (duplicate of `/gallery`, not linked in nav)
-- [ ] Remove "Home Page Alternatives" nav dropdown once a design is selected
+- [x] Remove `/portfolio` page (duplicate of `/gallery`, not linked in nav)
+- [x] Remove "Home Page Alternatives" nav dropdown — already removed
