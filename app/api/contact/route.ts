@@ -33,7 +33,7 @@ export async function POST(request: Request) {
     console.log('[contact] ReplyTo:', email);
     console.log('[contact] Subject:', `New Contact Form Submission from ${name}`);
 
-    const result = await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from,
       to,
       replyTo: email,
@@ -49,7 +49,15 @@ export async function POST(request: Request) {
       `,
     });
 
-    console.log('[contact] Resend response:', JSON.stringify(result, null, 2));
+    if (error) {
+      console.error('[contact] Resend error:', JSON.stringify(error, null, 2));
+      return NextResponse.json(
+        { error: error.message || 'Failed to send email.' },
+        { status: 500 },
+      );
+    }
+
+    console.log('[contact] Email sent successfully. ID:', data?.id);
 
     return NextResponse.json({ success: true });
   } catch (err) {
