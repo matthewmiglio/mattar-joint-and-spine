@@ -16,23 +16,31 @@ export default function Contact() {
     setStatus('sending');
     setErrorMsg('');
 
+    console.log('[contact-form] Submitting form:', form);
+
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
+
+      console.log('[contact-form] Response status:', res.status);
       const data = await res.json();
+      console.log('[contact-form] Response data:', data);
 
       if (!res.ok) {
+        console.error('[contact-form] Server error:', data.error);
         setStatus('error');
         setErrorMsg(data.error || 'Something went wrong.');
         return;
       }
 
+      console.log('[contact-form] Email sent successfully');
       setStatus('success');
       setForm({ name: '', email: '', phone: '', message: '' });
-    } catch {
+    } catch (err) {
+      console.error('[contact-form] Fetch error:', err);
       setStatus('error');
       setErrorMsg('Unable to send your message. Please try again.');
     }
