@@ -178,7 +178,7 @@ export default function Header() {
                 href="tel:5864773284"
                 className="block px-3 py-3 bg-[#C8A96E] text-[#0c1220] text-center rounded-lg font-semibold text-sm uppercase tracking-wider hover:bg-[#d4b87e] transition-colors"
               >
-                Call ***-***-****
+                Call (586) 477-3284
               </a>
             </div>
           </div>

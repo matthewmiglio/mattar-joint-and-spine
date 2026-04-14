@@ -30,7 +30,7 @@ export default function About() {
             <div className="relative">
               <Image
                 src="/images/AdobeStock_492255186 (1).webp"
-                alt="Dr. J****** M*****, D.C."
+                alt="Dr. Jeffrey Mattar, D.C."
                 width={800}
                 height={600}
                 className="w-full aspect-[4/3] object-cover"
@@ -41,24 +41,24 @@ export default function About() {
                 Doctor of Chiropractic
               </p>
               <h2 className="font-serif text-3xl md:text-5xl mb-6">
-                Dr. J****** M*****
+                Dr. Jeffrey Mattar
               </h2>
               <div className="w-10 h-px bg-[#C8A96E] mb-8" />
               <div className="space-y-5 text-gray-400 leading-relaxed">
                 <p>
-                  Originally from Flint, MI, Dr. M***** has been providing
+                  Originally from Flint, MI, Dr. Mattar has been providing
                   chiropractic care to Macomb County since 1982. He received his
                   Doctor of Chiropractic degree from Palmer College of
                   Chiropractic in Davenport, Iowa.
                 </p>
                 <p>
-                  He opened M***** Chiropractic Clinic in 1985, where he helped
+                  He opened Mattar Chiropractic Clinic in 1985, where he helped
                   improve the lives of thousands of patients over the years. His
                   gentle and painless procedures are customized to your personal
                   needs.
                 </p>
                 <p>
-                  Under the name of M***** Joint and Spine, Dr. M***** has
+                  Under the name of Mattar Joint and Spine, Dr. Mattar has
                   included the latest technology of regenerative acoustic wave
                   therapy to add a regenerative approach to various joint
                   injuries due to trauma, repetitive motion, post-surgical
@@ -79,7 +79,7 @@ export default function About() {
                 Certified StemWave Technician
               </p>
               <h2 className="font-serif text-3xl md:text-5xl mb-6">
-                P** M*****
+                Pam Mattar
               </h2>
               <div className="w-10 h-px bg-[#C8A96E] mb-8" />
               <div className="space-y-5 text-gray-400 leading-relaxed">
@@ -98,13 +98,13 @@ export default function About() {
                 href="tel:5864773284"
                 className="inline-block mt-8 px-10 py-4 bg-[#C8A96E] text-black font-semibold text-sm uppercase tracking-[0.15em] hover:bg-[#d4b87e] transition-all duration-500"
               >
-                Call Pam: ***-***-****
+                Call Pam: (586) 477-3284
               </a>
             </div>
             <div className="order-1 lg:order-2">
               <Image
                 src="/images/staff_photo.webp"
-                alt="P** M*****"
+                alt="Pam Mattar"
                 width={800}
                 height={600}
                 className="w-full aspect-[4/3] object-cover"

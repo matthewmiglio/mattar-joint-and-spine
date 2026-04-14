@@ -12,13 +12,13 @@ export default function Footer() {
             </span>
             <p className="mt-4 text-sm leading-relaxed">
               Providing chiropractic care and StemWave regenerative therapy in
-              ******* *********, Michigan since 1982.
+              Clinton Township, Michigan since 1982.
             </p>
             <a
               href="tel:5864773284"
               className="inline-block mt-4 text-[#C8A96E] hover:text-[#d4b87e] transition-colors font-medium"
             >
-              ***-***-****
+              (586) 477-3284
             </a>
           </div>
 
@@ -39,10 +39,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-sm uppercase tracking-wider mb-4">Contact</h3>
             <div className="space-y-2 text-sm">
-              <p>******* *********, MI</p>
+              <p>Clinton Twp., MI 48038</p>
               <p>Macomb County</p>
               <a href="tel:5864773284" className="block hover:text-[#C8A96E] transition-colors">
-                ***-***-****
+                (586) 477-3284
               </a>
               <p className="pt-2 text-xs text-gray-500">Contact Pam to schedule</p>
             </div>
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-8 text-center text-xs text-gray-500">
-          &copy; {new Date().getFullYear()} M***** Joint &amp; Spine. All rights reserved.
+          &copy; {new Date().getFullYear()} Mattar Joint &amp; Spine. All rights reserved.
         </div>
       </div>
     </footer>

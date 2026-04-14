@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "M***** Joint & Spine | Chiropractic & StemWave Therapy",
+  title: "Mattar Joint & Spine | Chiropractic & StemWave Therapy",
   description:
-    "Dr. J****** M***** provides chiropractic care and StemWave regenerative therapy in ******* *********, Michigan. Non-invasive pain relief for joints, spine, and soft tissue.",
+    "Dr. Jeffrey Mattar provides chiropractic care and StemWave regenerative therapy in Clinton Township, Michigan. Non-invasive pain relief for joints, spine, and soft tissue.",
 };
 
 export default function RootLayout({

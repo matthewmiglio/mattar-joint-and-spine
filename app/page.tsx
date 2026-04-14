@@ -33,7 +33,7 @@ export default function Home() {
 
           {/* Content below the name */}
           <p className="text-[#C8A96E] uppercase tracking-[0.3em] text-xs mb-6">
-            ******* *********, Michigan
+            Clinton Township, Michigan
           </p>
           <p className="font-serif text-2xl md:text-3xl lg:text-4xl italic mb-6 text-gray-200">
             True Healing Starts
@@ -69,7 +69,7 @@ export default function Home() {
             &ldquo;True Healing Starts With How The Body Moves,
             And How It Repairs Itself.&rdquo;
           </blockquote>
-          <p className="text-gray-500 text-sm uppercase tracking-widest">Dr. J****** M*****, D.C.</p>
+          <p className="text-gray-500 text-sm uppercase tracking-widest">Dr. Jeffrey Mattar, D.C.</p>
         </div>
       </section>
 
@@ -206,16 +206,16 @@ export default function Home() {
               <div className="mb-8">
                 <img
                   src="/images/AdobeStock_492255186 (1).webp"
-                  alt="Dr. J****** M*****"
+                  alt="Dr. Jeffrey Mattar"
                   className="w-full aspect-[4/3] object-cover"
                 />
               </div>
-              <h3 className="font-serif text-2xl mb-2">Dr. J****** M*****, D.C.</h3>
+              <h3 className="font-serif text-2xl mb-2">Dr. Jeffrey Mattar, D.C.</h3>
               <p className="text-[#C8A96E] text-sm uppercase tracking-wider mb-4">
                 Doctor of Chiropractic
               </p>
               <p className="text-gray-400 leading-relaxed">
-                Originally from Flint, MI, Dr. M***** has been providing chiropractic care
+                Originally from Flint, MI, Dr. Mattar has been providing chiropractic care
                 to Macomb County since 1982. He received his degree from Palmer College of
                 Chiropractic in Davenport, Iowa.
               </p>
@@ -224,17 +224,17 @@ export default function Home() {
               <div className="mb-8">
                 <img
                   src="/images/staff_photo.webp"
-                  alt="P** M*****"
+                  alt="Pam Mattar"
                   className="w-full aspect-[4/3] object-cover"
                 />
               </div>
-              <h3 className="font-serif text-2xl mb-2">P** M*****</h3>
+              <h3 className="font-serif text-2xl mb-2">Pam Mattar</h3>
               <p className="text-[#C8A96E] text-sm uppercase tracking-wider mb-4">
                 Certified StemWave Technician
               </p>
               <p className="text-gray-400 leading-relaxed">
                 Pam served as office manager from 2001 to 2025 and is now certified in the
-                application of StemWave Regenerative Therapy. Contact Pam directly at ***-***-****.
+                application of StemWave Regenerative Therapy. Contact Pam directly at (586) 477-3284.
               </p>
             </div>
           </div>
@@ -255,7 +255,7 @@ export default function Home() {
             href="tel:5864773284"
             className="inline-block px-12 py-5 bg-[#C8A96E] text-black font-semibold text-sm uppercase tracking-[0.15em] hover:bg-[#d4b87e] transition-all duration-500"
           >
-            Call ***-***-****
+            Call (586) 477-3284
           </a>
           <div className="w-16 h-px bg-[#C8A96E] mx-auto mt-10" />
         </div>

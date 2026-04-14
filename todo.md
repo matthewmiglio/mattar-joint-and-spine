@@ -28,3 +28,21 @@
 
 - [x] Remove `/portfolio` page (duplicate of `/gallery`, not linked in nav)
 - [x] Remove "Home Page Alternatives" nav dropdown — already removed
+
+## Redactions
+
+- [x] Fix redactions on the frontend — The guide (`public/guide.md`) and frontend pages have names, phone, email, and address redacted with asterisks. Un-redacted with:
+  - **Name:** Jeffrey J. Mattar, D.C.
+  - **Pam:** Pam Mattar, Technician
+  - **Dr. Brandon Mckenzie** (bought the practice Jan 2025)
+  - **Phone:** (586) 477-3284
+  - **Email:** jeffmattar@hotmail.com
+  - **Address:** 39949 Garfield Rd. Ste. B, Clinton Twp., MI 48038
+
+## Upcoming
+
+- [ ] SEO optimize website
+- [ ] QA new pages
+- [ ] Verify DNS changes
+- [ ] Make analytics routes + tables + policies
+- [ ] Make dashboard RPCs + website

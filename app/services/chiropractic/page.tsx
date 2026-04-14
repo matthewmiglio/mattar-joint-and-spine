@@ -113,7 +113,7 @@ export default function ChiropracticPage() {
           <div className="w-16 h-px bg-[#C8A96E] mx-auto mb-10" />
           <h2 className="font-serif text-3xl md:text-5xl mb-6">Schedule Your Visit</h2>
           <p className="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
-            Dr. M***** provides gentle, painless procedures customized to your personal needs.
+            Dr. Mattar provides gentle, painless procedures customized to your personal needs.
           </p>
           <a
             href="tel:5864773284"
