@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
+import { Resend } from 'resend';
 
-// TODO: Integrate an email service (e.g. Resend, SendGrid, Nodemailer)
-// to forward submissions to the clinic's inbox.
+const resend = new Resend(process.env.RESEND_KEY);
 
 export async function POST(request: Request) {
   try {
@@ -15,13 +15,21 @@ export async function POST(request: Request) {
       );
     }
 
-    // Log submission for now — replace with email delivery later
-    console.log('--- New Contact Form Submission ---');
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Phone:', phone || '(not provided)');
-    console.log('Message:', message);
-    console.log('----------------------------------');
+    await resend.emails.send({
+      from: 'Contact Form <onboarding@resend.dev>',
+      to: 'mattarjointandspine@gmail.com',
+      replyTo: email,
+      subject: `New Contact Form Submission from ${name}`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone || '(not provided)'}</p>
+        <hr />
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    });
 
     return NextResponse.json({ success: true });
   } catch {
