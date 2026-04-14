@@ -41,7 +41,7 @@
 
 ## Upcoming
 
-- [ ] Verify `matthewmiglio.dev` domain in Resend (https://resend.com/domains) — contact form emails fail with "domain is not verified"
+- [ ] Test contact form email delivery end-to-end
 - [ ] QA new pages
 - [ ] Verify DNS changes
 - [ ] Make analytics routes + tables + policies
