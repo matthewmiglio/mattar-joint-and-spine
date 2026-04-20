@@ -88,3 +88,38 @@
 - [ ] Preload critical fonts for LCP
 - [ ] Defer non-critical scripts
 - [ ] Verify all images/video have explicit dimensions (prevent CLS)
+
+
+
+### Random todos
+1. this part on the home page Dr. Jeffrey Mattar, D.C.
+Doctor of Chiropractic
+
+Originally from Flint, MI, Dr. Mattar has been providing chiropractic care to Macomb County since 1982. He received his degree from Palmer College of Chiropractic in Davenport, Iowa.
+needs a real pic of Jeff Mattar. We have these. use this one C:\My_Files\my_programs\mattar-joint-and-spine\public\images\Screenshot_20251109_153719_Facebook.webp
+
+2. all the schedule consultation buttons should just link to the contact page. not be a phone or mail button
+
+3. this part on the about page Doctor of Chiropractic
+
+Dr. Jeffrey Mattar
+Originally from Flint, MI, Dr. Mattar has been providing chiropractic care to Macomb County since 1982. He received his Doctor of Chiropractic degree from Palmer College of Chiropractic in Davenport, Iowa.
+
+He opened Mattar Chiropractic Clinic in 1985, where he helped improve the lives of thousands of patients over the years. His gentle and painless procedures are customized to your personal needs.
+
+Under the name of Mattar Joint and Spine, Dr. Mattar has included the latest technology of regenerative acoustic wave therapy to add a regenerative approach to various joint injuries due to trauma, repetitive motion, post-surgical healing, and degenerative changes. needs to be that pic of jeff mattar too
+
+4. https://mattar-joint-and-spine.vercel.app/gallery gallery needs to remove some images:
+
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2FScreenshot_20251221_160604_Facebook.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2FScreenshot_20260106_205011_ChatGPT.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2FScreenshot_20251228_164622_Facebook.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2F70afb5e3-3709-4645-b3e0-e517e5f55b83.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2F92291487-c5ef-49bc-923b-d9b56a2602d5.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2Fafe4a305-4732-4601-ad54-f45469beacdb.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2Ffda40b13-b81f-42b6-b027-40b9bc60cc0c.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2Fimage.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2FSoundWaves_Header_1920x1080_prog01%20(1).webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2FAdobeStock_492255186%20(1).webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+https://mattar-joint-and-spine.vercel.app/_next/image?url=%2Fimages%2F92291487-c5ef-49bc-923b-d9b56a2602d5.webp&w=1200&q=75&dpl=dpl_HmztVzHw9tBTSQnXESFXi3ZLChKJ
+
